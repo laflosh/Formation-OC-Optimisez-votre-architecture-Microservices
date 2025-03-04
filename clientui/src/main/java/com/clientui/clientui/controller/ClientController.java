@@ -9,9 +9,9 @@ public class ClientController {
 
 	@RequestMapping("/")
 	public String accueil(Model model) {
-		
+
 		return"Accueil";
-		
+
 	}
-	
+
 }
