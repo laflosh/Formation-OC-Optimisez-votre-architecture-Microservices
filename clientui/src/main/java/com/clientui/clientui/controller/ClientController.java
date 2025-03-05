@@ -55,7 +55,7 @@ public class ClientController {
 		
 	}
 	
-	@RequestMapping("/details-produit/commander-produit/{idProduit}/{montant}")
+	@RequestMapping("/commander-produit/{idProduit}/{montant}")
 	public String passerCommande(@PathVariable("idProduit") int idProduit, @PathVariable("montant") Double montant, Model model) {
 		
 		CommandeBean commande = new CommandeBean();

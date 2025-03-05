@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import com.clientui.clientui.beans.ProductBean;
 
 @Component
-@FeignClient(name = "microservice-produits", url = "${microservice-produits.url}")
+@FeignClient(name = "microservice-produits", url = "${microservice-produits.url}", dismiss404 = true)
 public interface MicroserviceProductProxy {
 
 	@GetMapping(value = "/Produits")
