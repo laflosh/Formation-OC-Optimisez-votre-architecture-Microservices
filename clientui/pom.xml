@@ -60,9 +60,9 @@
 	        <dependency>
 	            <groupId>org.springframework.cloud</groupId>
 	            <artifactId>spring-cloud-dependencies</artifactId>
-	            <version>2022.0.4</version>  <!-- Adaptez à la dernière version disponible -->
-	            <type>pom</type>
+	            <version>2024.0.0</version> <!-- Adapte selon ta version Spring Boot -->
 	            <scope>import</scope>
+	            <type>pom</type>
 	        </dependency>
 	    </dependencies>
 	</dependencyManagement>
